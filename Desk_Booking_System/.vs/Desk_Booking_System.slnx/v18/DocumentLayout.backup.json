@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{19522449-19FA-433E-AA5B-F94D5D0DA77B}|Application\\Application.csproj|c:\\users\\lukas\\documents\\programming\\desk_booking_system\\desk_booking_system\\application\\desks\\searchdesks\\searchdesksqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19522449-19FA-433E-AA5B-F94D5D0DA77B}|Application\\Application.csproj|solutionrelative:application\\desks\\searchdesks\\searchdesksqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19522449-19FA-433E-AA5B-F94D5D0DA77B}|Application\\Application.csproj|c:\\users\\lukas\\documents\\programming\\desk_booking_system\\desk_booking_system\\application\\desks\\searchdesks\\deskresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19522449-19FA-433E-AA5B-F94D5D0DA77B}|Application\\Application.csproj|solutionrelative:application\\desks\\searchdesks\\deskresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D7E4B70-36CD-4721-9411-794652CF2C2E}|Infrastructure\\Infrastructure.csproj|c:\\users\\lukas\\documents\\programming\\desk_booking_system\\desk_booking_system\\infrastructure\\repositories\\deskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D7E4B70-36CD-4721-9411-794652CF2C2E}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\deskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19522449-19FA-433E-AA5B-F94D5D0DA77B}|Application\\Application.csproj|c:\\users\\lukas\\documents\\programming\\desk_booking_system\\desk_booking_system\\application\\desks\\searchdesks\\searchdesksquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19522449-19FA-433E-AA5B-F94D5D0DA77B}|Application\\Application.csproj|solutionrelative:application\\desks\\searchdesks\\searchdesksquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2447F414-D129-4FD6-AEE3-EDBF4ED5A1D5}|Domain\\Domain.csproj|c:\\users\\lukas\\documents\\programming\\desk_booking_system\\desk_booking_system\\domain\\desks\\desk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2447F414-D129-4FD6-AEE3-EDBF4ED5A1D5}|Domain\\Domain.csproj|solutionrelative:domain\\desks\\desk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DeskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Infrastructure\\Repositories\\DeskRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\DeskRepository.cs",
+              "ToolTip": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Infrastructure\\Repositories\\DeskRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\DeskRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T02:43:51.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeskResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Application\\Desks\\SearchDesks\\DeskResponse.cs",
+              "RelativeDocumentMoniker": "Application\\Desks\\SearchDesks\\DeskResponse.cs",
+              "ToolTip": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Application\\Desks\\SearchDesks\\DeskResponse.cs",
+              "RelativeToolTip": "Application\\Desks\\SearchDesks\\DeskResponse.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T02:32:58.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Desk.cs",
+              "DocumentMoniker": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Domain\\Desks\\Desk.cs",
+              "RelativeDocumentMoniker": "Domain\\Desks\\Desk.cs",
+              "ToolTip": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Domain\\Desks\\Desk.cs",
+              "RelativeToolTip": "Domain\\Desks\\Desk.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T02:02:18.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SearchDesksQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Application\\Desks\\SearchDesks\\SearchDesksQueryHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Desks\\SearchDesks\\SearchDesksQueryHandler.cs",
+              "ToolTip": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Application\\Desks\\SearchDesks\\SearchDesksQueryHandler.cs",
+              "RelativeToolTip": "Application\\Desks\\SearchDesks\\SearchDesksQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T02:01:25.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SearchDesksQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Application\\Desks\\SearchDesks\\SearchDesksQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Desks\\SearchDesks\\SearchDesksQuery.cs",
+              "ToolTip": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Application\\Desks\\SearchDesks\\SearchDesksQuery.cs",
+              "RelativeToolTip": "Application\\Desks\\SearchDesks\\SearchDesksQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T01:46:26.662Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
