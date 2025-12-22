@@ -1,5 +1,7 @@
 using Application;
 using Infrastructure;
+using Microsoft.EntityFrameworkCore;
+using Presentation.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,10 +18,10 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
 }
 
+app.SeedData();
+
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.MapControllers();
 
 app.Run();

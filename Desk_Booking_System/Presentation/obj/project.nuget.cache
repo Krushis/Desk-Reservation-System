@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "8SO1lxhkyBE=",
+  "dgSpecHash": "DwA3pYp1uzg=",
   "success": true,
   "projectFilePath": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Presentation\\Presentation.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Lukas\\.nuget\\packages\\bogus\\35.6.5\\bogus.35.6.5.nupkg.sha512",
     "C:\\Users\\Lukas\\.nuget\\packages\\mediatr\\14.0.0\\mediatr.14.0.0.nupkg.sha512",
     "C:\\Users\\Lukas\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\Lukas\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.1\\microsoft.aspnetcore.openapi.10.0.1.nupkg.sha512",
