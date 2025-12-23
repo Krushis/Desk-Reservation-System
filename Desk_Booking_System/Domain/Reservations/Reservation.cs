@@ -14,7 +14,6 @@ namespace Domain.Reservations
             UserId = userId;
             StartDate = startDate;
             EndDate = endDate;
-            IsCancelled = false;
         }
 
         private Reservation() { }
@@ -36,6 +35,31 @@ namespace Domain.Reservations
             return reservation;
         }
 
+        public void Cancel()
+        {
+            if (IsCancelled)
+            {
+                throw new InvalidOperationException("Reservation is already cancelled");
+            }
+            IsCancelled = true;
+        }
 
+        public void AdjustStartDate(DateTime newStartDate)
+        {
+            if (newStartDate > EndDate)
+            {
+                throw new InvalidOperationException("Start date cannot be after end date");
+            }
+            StartDate = newStartDate;
+        }
+
+        public void AdjustEndDate(DateTime newEndDate)
+        {
+            if (newEndDate < StartDate)
+            {
+                throw new InvalidOperationException("End date cannot be before start date");
+            }
+            EndDate = newEndDate;
+        }
     }
 }

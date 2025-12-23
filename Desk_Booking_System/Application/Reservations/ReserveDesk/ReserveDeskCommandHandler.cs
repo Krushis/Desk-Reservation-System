@@ -21,15 +21,15 @@ namespace Application.Reservations.ReserveDesk
             _unitOfWork = unitOfWork;
         }
 
-        async Task<Result<Guid>> IRequestHandler<ReserveDeskCommand, 
-            Result<Guid>>.Handle(ReserveDeskCommand request, CancellationToken cancellationToken)
+        async Task<Result<Guid>> IRequestHandler<ReserveDeskCommand, Result<Guid>>.Handle(ReserveDeskCommand request, 
+            CancellationToken cancellationToken)
         {
             var isAvailable = await _reservationAvailableRepository.IsReservationAvailableAsync(
                 request.DeskId, request.StartDate, request.EndDate, cancellationToken);
 
             if (!isAvailable)
             {
-                throw new InvalidOperationException("Desk is not available for the selected period");
+                return Result.Failure<Guid>(Error.DeskNotAvailable);
             }
 
             var reservation = Reservation.Create(request.DeskId, request.UserId,
@@ -38,7 +38,7 @@ namespace Application.Reservations.ReserveDesk
             _reservationRepository.Add(reservation);
             await _unitOfWork.SaveChangesAsync(cancellationToken);
 
-            return reservation.Id;
+            return Result.Success(reservation.Id);
         }
     }
 }

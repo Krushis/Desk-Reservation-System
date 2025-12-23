@@ -1,10 +1,9 @@
-﻿using System;
+﻿using Application.Abstractions.Messaging;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Application.Reservations.CancelReservation
 {
-    internal class CancelReservationCommand
-    {
-    }
+    public sealed record CancelReservationCommand(Guid UserId, Guid ReservationId) : ICommand;
 }

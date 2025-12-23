@@ -10,6 +10,7 @@ namespace Infrastructure.Repositories
     /// </summary>
     internal sealed class DeskRepository : Repository<Desk>, IDeskRepository
     {
+
         public DeskRepository(ApplicationDbContext dbContext) : base(dbContext)
         {
         }

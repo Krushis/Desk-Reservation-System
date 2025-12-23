@@ -25,8 +25,5 @@ namespace Presentation.Controllers.Desks
 
             return Ok(result.Value);
         }
-
-
-
     }
 }

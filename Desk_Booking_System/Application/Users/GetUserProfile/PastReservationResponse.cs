@@ -11,5 +11,6 @@ namespace Application.Users.GetUserProfile
         public int DeskNumber { get; init; }
         public DateTime StartDate { get; init; }
         public DateTime EndDate { get; init; }
+        public bool WasCancelled { get; init; }
     }
 }

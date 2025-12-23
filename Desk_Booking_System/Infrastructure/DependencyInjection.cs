@@ -1,4 +1,6 @@
 ﻿using Application.Desks.SearchDesks;
+using Application.Reservations.ReserveDesk;
+using Application.Users.GetUserProfile;
 using Domain.Abstractions;
 using Domain.Desks;
 using Domain.Reservations;
@@ -19,11 +21,15 @@ namespace Infrastructure
         {
             services.AddDbContext<ApplicationDbContext>(options => options.UseInMemoryDatabase("DeskSystem"));
 
+            // main db context repositories
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IDeskRepository, DeskRepository>();
             services.AddScoped<IReservationRepository, ReservationRepository>();
 
+            // main business logic repositories
             services.AddScoped<ISearchDeskRepository, DeskSearchRepository>();
+            services.AddScoped<IReservationAvailableRepository, ReservationsAvailableRepository>();
+            services.AddScoped<IUserProfileRepository, UserProfileRepository>();
 
             services.AddScoped<IUnitOfWork>(sp => sp.GetRequiredService<ApplicationDbContext>());
 
