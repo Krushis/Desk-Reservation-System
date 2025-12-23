@@ -21,7 +21,7 @@ Content-Type: {{ContentType}}
 }
 
 ### Cancel Entire Reservation
-DELETE {{Presentation_HostAddress}}/api/reservations/0ed7555b-f80b-4b14-a3ab-01c701cb0554?userId={{TestUserId}}
+DELETE {{Presentation_HostAddress}}/api/reservations/c31fafc4-fed9-44db-87eb-ffd279b56389?userId={{TestUserId}}
 
 ### Delete single day from multi day reservation
 DELETE {{Presentation_HostAddress}}/api/reservations/87cd2188-5246-4dc2-9a60-e4829102273f/day?userId={{TestUserId}}&date=2025-12-26T00:00:00

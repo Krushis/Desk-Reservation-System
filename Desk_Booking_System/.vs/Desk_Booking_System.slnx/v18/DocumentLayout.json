@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|c:\\users\\lukas\\documents\\programming\\desk_booking_system\\desk_booking_system\\presentation\\presentation.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\presentation.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|c:\\users\\lukas\\documents\\programming\\desk_booking_system\\desk_booking_system\\application\\reservations\\cancelreservationforaday\\cancelreservationforadaycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|solutionrelative:application\\reservations\\cancelreservationforaday\\cancelreservationforadaycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|c:\\users\\lukas\\documents\\programming\\desk_booking_system\\desk_booking_system\\presentation\\controllers\\reservations\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\reservations\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\lukas\\documents\\programming\\desk_booking_system\\desk_booking_system\\domain\\reservations\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,20 +19,36 @@
       "RelativeMoniker": "D:0:0:{5872AEB3-BAA3-FE31-B0EB-0FB6DBEDCF83}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\userprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5872AEB3-BAA3-FE31-B0EB-0FB6DBEDCF83}|Infrastructure\\Infrastructure.csproj|c:\\users\\lukas\\documents\\programming\\desk_booking_system\\desk_booking_system\\infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5872AEB3-BAA3-FE31-B0EB-0FB6DBEDCF83}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5872AEB3-BAA3-FE31-B0EB-0FB6DBEDCF83}|Infrastructure\\Infrastructure.csproj|c:\\users\\lukas\\documents\\programming\\desk_booking_system\\desk_booking_system\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5872AEB3-BAA3-FE31-B0EB-0FB6DBEDCF83}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\lukas\\documents\\programming\\desk_booking_system\\desk_booking_system\\domain\\desks\\deskstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\desks\\deskstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|c:\\users\\lukas\\documents\\programming\\desk_booking_system\\desk_booking_system\\presentation\\presentation.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\presentation.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|c:\\users\\lukas\\documents\\programming\\desk_booking_system\\desk_booking_system\\presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|c:\\users\\lukas\\documents\\programming\\desk_booking_system\\desk_booking_system\\presentation\\controllers\\users\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\users\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|c:\\users\\lukas\\documents\\programming\\desk_booking_system\\desk_booking_system\\application\\users\\getuserprofile\\userprofileresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|solutionrelative:application\\users\\getuserprofile\\userprofileresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|c:\\users\\lukas\\documents\\programming\\desk_booking_system\\desk_booking_system\\application\\reservations\\cancelreservation\\cancelreservationcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|solutionrelative:application\\reservations\\cancelreservation\\cancelreservationcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|c:\\users\\lukas\\documents\\programming\\desk_booking_system\\desk_booking_system\\presentation\\controllers\\reservations\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\reservations\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5872AEB3-BAA3-FE31-B0EB-0FB6DBEDCF83}|Infrastructure\\Infrastructure.csproj|c:\\users\\lukas\\documents\\programming\\desk_booking_system\\desk_booking_system\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5872AEB3-BAA3-FE31-B0EB-0FB6DBEDCF83}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5872AEB3-BAA3-FE31-B0EB-0FB6DBEDCF83}|Infrastructure\\Infrastructure.csproj|c:\\users\\lukas\\documents\\programming\\desk_booking_system\\desk_booking_system\\infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5872AEB3-BAA3-FE31-B0EB-0FB6DBEDCF83}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5872AEB3-BAA3-FE31-B0EB-0FB6DBEDCF83}|Infrastructure\\Infrastructure.csproj|c:\\users\\lukas\\documents\\programming\\desk_booking_system\\desk_booking_system\\infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,24 +66,141 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CancelReservationForADayCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Application\\Reservations\\CancelReservationForADay\\CancelReservationForADayCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Reservations\\CancelReservationForADay\\CancelReservationForADayCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Application\\Reservations\\CancelReservationForADay\\CancelReservationForADayCommandHandler.cs",
+              "RelativeToolTip": "Application\\Reservations\\CancelReservationForADay\\CancelReservationForADayCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T02:02:56.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DeskStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Domain\\Desks\\DeskStatus.cs",
+              "RelativeDocumentMoniker": "Domain\\Desks\\DeskStatus.cs",
+              "ToolTip": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Domain\\Desks\\DeskStatus.cs",
+              "RelativeToolTip": "Domain\\Desks\\DeskStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T01:57:48.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAiwB8AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T23:24:28.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserProfileRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Infrastructure\\Repositories\\UserProfileRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\UserProfileRepository.cs",
+              "ToolTip": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Infrastructure\\Repositories\\UserProfileRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\UserProfileRepository.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwDEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T23:15:34.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ReservationsController.cs",
+              "DocumentMoniker": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Presentation\\Controllers\\Reservations\\ReservationsController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\Reservations\\ReservationsController.cs",
+              "ToolTip": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Presentation\\Controllers\\Reservations\\ReservationsController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\Reservations\\ReservationsController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAcwFkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T22:59:47.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Reservation.cs",
               "DocumentMoniker": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Domain\\Reservations\\Reservation.cs",
               "RelativeDocumentMoniker": "Domain\\Reservations\\Reservation.cs",
               "ToolTip": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Domain\\Reservations\\Reservation.cs",
               "RelativeToolTip": "Domain\\Reservations\\Reservation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAvwDcAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-23T00:06:56.903Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "Presentation.http",
+              "DocumentMoniker": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Presentation\\Presentation.http",
+              "RelativeDocumentMoniker": "Presentation\\Presentation.http",
+              "ToolTip": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Presentation\\Presentation.http",
+              "RelativeToolTip": "Presentation\\Presentation.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-12-23T01:50:34.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\Program.cs",
+              "ToolTip": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Presentation\\Program.cs",
+              "RelativeToolTip": "Presentation\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwCIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T01:10:57.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Presentation\\Controllers\\Users\\UsersController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\Users\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Presentation\\Controllers\\Users\\UsersController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\Users\\UsersController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAUwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T00:53:01.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserProfileResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Application\\Users\\GetUserProfile\\UserProfileResponse.cs",
+              "RelativeDocumentMoniker": "Application\\Users\\GetUserProfile\\UserProfileResponse.cs",
+              "ToolTip": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Application\\Users\\GetUserProfile\\UserProfileResponse.cs",
+              "RelativeToolTip": "Application\\Users\\GetUserProfile\\UserProfileResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T00:10:45.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Infrastructure\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\UserRepository.cs",
@@ -71,25 +208,11 @@
               "RelativeToolTip": "Infrastructure\\Repositories\\UserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T00:06:14.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-23T00:06:14.106Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Infrastructure\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Infrastructure\\DependencyInjection.cs",
-              "RelativeToolTip": "Infrastructure\\DependencyInjection.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAUwB4AAABjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T23:24:28.016Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Infrastructure\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\ApplicationDbContext.cs",
@@ -97,51 +220,24 @@
               "RelativeToolTip": "Infrastructure\\ApplicationDbContext.cs",
               "ViewState": "AgIAADYAAAAAAAAAAAAcwEQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T23:24:23.207Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-22T23:24:23.207Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "CancelReservationCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Application\\Reservations\\CancelReservation\\CancelReservationCommandHandler.cs",
               "RelativeDocumentMoniker": "Application\\Reservations\\CancelReservation\\CancelReservationCommandHandler.cs",
               "ToolTip": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Application\\Reservations\\CancelReservation\\CancelReservationCommandHandler.cs",
               "RelativeToolTip": "Application\\Reservations\\CancelReservation\\CancelReservationCommandHandler.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwCcAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCcAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-22T22:56:43.889Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Presentation.http",
-              "DocumentMoniker": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Presentation\\Presentation.http",
-              "RelativeDocumentMoniker": "Presentation\\Presentation.http",
-              "ToolTip": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Presentation\\Presentation.http",
-              "RelativeToolTip": "Presentation\\Presentation.http",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-12-22T22:04:50.379Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserProfileRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Infrastructure\\Repositories\\UserProfileRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\UserProfileRepository.cs",
-              "ToolTip": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Infrastructure\\Repositories\\UserProfileRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\UserProfileRepository.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAYwEMAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T23:15:34.102Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "ReservationRepository.cs",
               "DocumentMoniker": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Infrastructure\\Repositories\\ReservationRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\ReservationRepository.cs",
@@ -149,21 +245,7 @@
               "RelativeToolTip": "Infrastructure\\Repositories\\ReservationRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T23:24:18.518Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ReservationsController.cs",
-              "DocumentMoniker": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Presentation\\Controllers\\Reservations\\ReservationsController.cs",
-              "RelativeDocumentMoniker": "Presentation\\Controllers\\Reservations\\ReservationsController.cs",
-              "ToolTip": "C:\\Users\\Lukas\\Documents\\Programming\\Desk_Booking_System\\Desk_Booking_System\\Presentation\\Controllers\\Reservations\\ReservationsController.cs",
-              "RelativeToolTip": "Presentation\\Controllers\\Reservations\\ReservationsController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwC0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T22:59:47.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-22T23:24:18.518Z"
             }
           ]
         }

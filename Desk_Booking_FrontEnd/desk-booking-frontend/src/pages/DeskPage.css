@@ -1,0 +1,38 @@
+.page-container h2 {
+  margin-bottom: 2rem;
+  color: #2c3e50;
+}
+
+.date-filter {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.date-input-group {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.date-input-group label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.date-input-group input[type="date"] {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.date-input-group input[type="date"]:focus {
+  outline: none;
+  border-color: #3498db;
+}

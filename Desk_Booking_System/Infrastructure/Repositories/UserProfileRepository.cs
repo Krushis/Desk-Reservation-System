@@ -57,7 +57,8 @@ namespace Infrastructure.Repositories
                         .Select(d => d.Number)
                         .FirstOrDefault(),
                     StartDate = r.StartDate,
-                    EndDate = r.EndDate
+                    EndDate = r.EndDate,
+                    WasCancelled = r.IsCancelled
                 })
                 .ToListAsync(cancellationToken);
 
