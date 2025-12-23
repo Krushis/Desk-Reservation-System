@@ -73,6 +73,9 @@
 
 .reservation-card.current {
   border-left: 4px solid #3498db;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .reservation-header {
@@ -164,4 +167,16 @@
   flex: 1;
   color: #666;
   font-size: 0.9rem;
+}
+
+.reservation-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.reservation-actions .btn {
+  flex: 1;
+  min-width: 80px;
 }

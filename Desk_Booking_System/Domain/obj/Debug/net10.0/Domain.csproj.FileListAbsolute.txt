@@ -10,3 +10,4 @@ C:\Users\Lukas\Documents\Programming\Desk_Booking_System\Desk_Booking_System\Dom
 C:\Users\Lukas\Documents\Programming\Desk_Booking_System\Desk_Booking_System\Domain\obj\Debug\net10.0\refint\Domain.dll
 C:\Users\Lukas\Documents\Programming\Desk_Booking_System\Desk_Booking_System\Domain\obj\Debug\net10.0\Domain.pdb
 C:\Users\Lukas\Documents\Programming\Desk_Booking_System\Desk_Booking_System\Domain\obj\Debug\net10.0\ref\Domain.dll
+C:\Users\Lukas\Documents\Programming\Desk_Booking_System\Desk_Booking_System\Domain\obj\Debug\net10.0\Domain.sourcelink.json

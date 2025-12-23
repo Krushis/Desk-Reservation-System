@@ -75,6 +75,43 @@ function ProfilePage({ userId }) {
                     </span>
                   </div>
                 </div>
+
+                <div className="reservation-actions">
+                  <button
+                    className="btn btn-danger btn-small"
+                    onClick={async () => {
+                      if (!window.confirm('Cancel entire reservation?')) return;
+                      try {
+                        await deskApi.cancelReservation(reservation.reservationId, userId);
+                        loadProfile();
+                      } catch (err) {
+                        alert('Failed to cancel reservation');
+                      }
+                    }}
+                  >
+                    Cancel All
+                  </button>
+
+                  <button
+                    className="btn btn-warning btn-small"
+                    onClick={async () => {
+                      const dateStr = prompt('Enter date to cancel (YYYY-MM-DD):');
+                      if (!dateStr) return;
+                      try {
+                        await deskApi.cancelReservationForDay(
+                          reservation.reservationId,
+                          userId,
+                          new Date(dateStr).toISOString()
+                        );
+                        loadProfile();
+                      } catch (err) {
+                        alert('Failed to cancel day');
+                      }
+                    }}
+                  >
+                    Cancel Day
+                  </button>
+                </div>
               </div>
             ))}
           </div>

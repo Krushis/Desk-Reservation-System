@@ -15,6 +15,21 @@ function DeskCard({ desk, userId, onActionComplete }) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
+  // hover state
+  const [isHovered, setIsHovered] = useState(false);
+
+  const getTooltipContent = () => {
+    if (desk.status === DeskStatus.Reserved && desk.reservedBy) {
+      return `Reserved by: ${desk.reservedBy}`;
+    }
+    if (desk.status === DeskStatus.Maintenance && desk.maintenanceMessage) {
+      return desk.maintenanceMessage;
+    }
+    return null;
+  };
+
+  const tooltip = getTooltipContent();
+
   const getStatusClass = () => {
     switch (desk.status) {
       case DeskStatus.Open:
@@ -105,56 +120,34 @@ function DeskCard({ desk, userId, onActionComplete }) {
 
   return (
     <>
-      <div className={`desk-card ${getStatusClass()}`}>
-        <div className="desk-number">Desk #{desk.number}</div>
-        <div className="desk-status">{getStatusLabel()}</div>
+      <div className={`desk-card ${getStatusClass()}`}
+          onMouseEnter={() => setIsHovered(true)}
+          onMouseLeave={() => setIsHovered(false)}
+        >
+          <div className="desk-number">Desk #{desk.number}</div>
+          <div className="desk-status">{getStatusLabel()}</div>
 
-        {desk.status === DeskStatus.Reserved && (
-          <div className="desk-info">
-            <p className="reserved-by">Reserved by: {desk.reservedBy}</p>
-            <p className="reservation-dates">
-              {new Date(desk.reservationStart).toLocaleDateString()} - 
-              {new Date(desk.reservationEnd).toLocaleDateString()}
-            </p>
-          </div>
-        )}
-
-        {desk.status === DeskStatus.Maintenance && (
-          <div className="desk-info">
-            <p className="maintenance-msg">{desk.maintenanceMessage}</p>
-          </div>
-        )}
-
-        <div className="desk-actions">
-          {desk.status === DeskStatus.Open && (
-            <button
-              className="btn btn-primary"
-              onClick={() => setShowReserveModal(true)}
-            >
-              Reserve
-            </button>
+          {tooltip && isHovered && (
+            <div className="desk-tooltip">
+              {tooltip}
+            </div>
           )}
 
-          {desk.status === DeskStatus.Reserved && desk.reservedByCurrentUser && (
-            <>
-              <button
-                className="btn btn-danger btn-small"
-                onClick={handleCancelReservation}
-                disabled={loading}
-              >
-                Cancel All
+          <div className="desk-actions">
+            {desk.status === DeskStatus.Open && (
+              <button className="btn btn-primary" onClick={() => setShowReserveModal(true)}>
+                Reserve
               </button>
-              <button
-                className="btn btn-warning btn-small"
-                onClick={handleCancelDay}
-                disabled={loading}
-              >
-                Cancel Day
-              </button>
-            </>
-          )}
+            )}
+            {desk.status === DeskStatus.Reserved && desk.reservedByCurrentUser && (
+              <>
+                <button className="btn btn-danger btn-small" onClick={handleCancelReservation} disabled={loading}>Cancel</button>
+                <button className="btn btn-warning btn-small" onClick={handleCancelDay} disabled={loading}>Cancel Day</button>
+              </>
+            )}
+          </div>
         </div>
-      </div>
+
 
       {showReserveModal && (
         <div className="modal-overlay" onClick={() => setShowReserveModal(false)}>

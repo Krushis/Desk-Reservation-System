@@ -10,10 +10,12 @@ const apiClient = axios.create({
 });
 
 export const deskApi = {
-  searchDesks: async (startDate, endDate, userId) => {
-    const response = await apiClient.get('/desks/search', {
-      params: { startDate, endDate, currentUserId: userId }
-    });
+  getDesks: async (startDate, endDate, userId) => {
+    const params = { currentUserId: userId };
+    if (startDate) params.startDate = startDate;
+    if (endDate) params.endDate = endDate;
+
+    const response = await apiClient.get('/desks', { params });
     return response.data;
   },
 

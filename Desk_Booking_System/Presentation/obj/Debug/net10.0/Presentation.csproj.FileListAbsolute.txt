@@ -48,3 +48,4 @@ C:\Users\Lukas\Documents\Programming\Desk_Booking_System\Desk_Booking_System\Pre
 C:\Users\Lukas\Documents\Programming\Desk_Booking_System\Desk_Booking_System\Presentation\obj\Debug\net10.0\Presentation.pdb
 C:\Users\Lukas\Documents\Programming\Desk_Booking_System\Desk_Booking_System\Presentation\obj\Debug\net10.0\Presentation.genruntimeconfig.cache
 C:\Users\Lukas\Documents\Programming\Desk_Booking_System\Desk_Booking_System\Presentation\obj\Debug\net10.0\ref\Presentation.dll
+C:\Users\Lukas\Documents\Programming\Desk_Booking_System\Desk_Booking_System\Presentation\obj\Debug\net10.0\Presentation.sourcelink.json

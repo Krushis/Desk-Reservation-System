@@ -7,27 +7,18 @@ function DesksPage({ userId }) {
   const [desks, setDesks] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [hasFiltered, setHasFiltered] = useState(false);
   
-  const today = new Date().toISOString().split('T')[0];
-  const weekLater = new Date(Date.now() + 7 * 24 * 60 * 60 * 1000)
-    .toISOString()
-    .split('T')[0];
-  
-  const [startDate, setStartDate] = useState(today);
-  const [endDate, setEndDate] = useState(weekLater);
+  const [startDate, setStartDate] = useState('');
+  const [endDate, setEndDate] = useState('');
 
   const loadDesks = async () => {
     try {
       setLoading(true);
       setError(null);
-      const data = await deskApi.searchDesks(startDate, endDate, userId);
-
-      const filteredData = hasFiltered
-      ? data.filter(desk => desk.status === 0)
-      : data;
-
-      setDesks(filteredData);
+      const data = await deskApi.getDesks(
+        startDate || undefined, endDate || undefined, userId
+      );
+      setDesks(data);
     } catch (err) {
       setError('Failed to load desks. Please try again.');
       console.error(err);
@@ -38,7 +29,7 @@ function DesksPage({ userId }) {
 
   useEffect(() => {
     loadDesks();
-  }, [startDate, endDate, hasFiltered]);
+  }, [startDate, endDate]);
 
 
   return (
@@ -54,7 +45,6 @@ function DesksPage({ userId }) {
               value={startDate}
               onChange={(e) => {
                 setStartDate(e.target.value);
-                setHasFiltered(true);
               }}
             />
           </label>
@@ -66,7 +56,6 @@ function DesksPage({ userId }) {
               min={startDate}
               onChange={(e) => {
                 setEndDate(e.target.value);
-                setHasFiltered(true);
               }}
             />
           </label>
