@@ -17,34 +17,41 @@ namespace Infrastructure.Repositories
             _context = context;
         }
 
-        public async Task<IReadOnlyList<DeskResponse>> GetDesksAsync(
-            DateOnly startDate,
-            DateOnly endDate,
-            Guid currentUserId,
-            CancellationToken cancellationToken)
+        public async Task<IReadOnlyList<DeskResponse>> GetDesksAsync(DateOnly? startDate, DateOnly? endDate,
+            Guid currentUserId, CancellationToken cancellationToken)
         {
-            DateTime start = startDate.ToDateTime(TimeOnly.MinValue);
-            DateTime end = endDate.ToDateTime(TimeOnly.MaxValue);
+            DateTime? start = startDate?.ToDateTime(TimeOnly.MinValue);
+            DateTime? end = endDate?.ToDateTime(TimeOnly.MaxValue);
 
-            var desks = await _context.Desks
+            var desksQuery = _context.Desks.AsQueryable();
+
+            var reservationsQuery = _context.Reservations
+                .Include(r => r.User)
+                .Where(r => !r.IsCancelled);
+
+            if (start.HasValue && end.HasValue)
+            {
+                reservationsQuery = reservationsQuery
+                    .Where(r => r.StartDate <= end && r.EndDate >= start);
+            }
+
+            var desksWithReservations = await desksQuery
                 .Select(desk => new
                 {
                     Desk = desk,
-                    Reservation = _context.Reservations
-                        .Include(r => r.User)
-                        .Where(r =>
-                            r.DeskId == desk.Id &&
-                            !r.IsCancelled &&
-                            r.StartDate <= end &&
-                            r.EndDate >= start)
-                        .OrderBy(r => r.StartDate)
-                        .FirstOrDefault()
+                    Reservation = reservationsQuery.FirstOrDefault(r => r.DeskId == desk.Id)
                 })
                 .OrderBy(x => x.Desk.Number)
                 .ToListAsync(cancellationToken);
 
-            return desks.Select(x => MapToDeskResponse(x.Desk, x.Reservation, currentUserId))
+            var response = desksWithReservations
+                .Where(x =>
+                    (start.HasValue && end.HasValue && x.Reservation == null) ||
+                    (!start.HasValue && !end.HasValue))
+                .Select(x => MapToDeskResponse(x.Desk, x.Reservation, currentUserId))
                 .ToList();
+
+            return response;
         }
 
         private static DeskResponse MapToDeskResponse(
@@ -85,6 +92,5 @@ namespace Infrastructure.Repositories
                 Status = DeskStatus.Open
             };
         }
-
     }
 }

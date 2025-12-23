@@ -2,8 +2,12 @@
 @ContentType = application/json
 @TestUserId = 11111111-1111-1111-1111-111111111111
 
-### Search desks
-GET {{Presentation_HostAddress}}/api/desks/search?startDate=2025-12-15&endDate=2026-01-20&currentUserId={{TestUserId}}
+### Get all desks
+GET {{Presentation_HostAddress}}/api/desks?currentUserId={{TestUserId}}
+Accept: {{ContentType}}
+
+### Search desks by date
+GET {{Presentation_HostAddress}}/api/desks?startDate=2025-12-15&endDate=2026-01-20&currentUserId={{TestUserId}}
 Accept: {{ContentType}}
 
 ### Get User Profile

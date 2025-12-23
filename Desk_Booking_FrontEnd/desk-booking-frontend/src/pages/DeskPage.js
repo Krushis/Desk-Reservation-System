@@ -7,6 +7,7 @@ function DesksPage({ userId }) {
   const [desks, setDesks] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [hasFiltered, setHasFiltered] = useState(false);
   
   const today = new Date().toISOString().split('T')[0];
   const weekLater = new Date(Date.now() + 7 * 24 * 60 * 60 * 1000)
@@ -21,7 +22,12 @@ function DesksPage({ userId }) {
       setLoading(true);
       setError(null);
       const data = await deskApi.searchDesks(startDate, endDate, userId);
-      setDesks(data);
+
+      const filteredData = hasFiltered
+      ? data.filter(desk => desk.status === 0)
+      : data;
+
+      setDesks(filteredData);
     } catch (err) {
       setError('Failed to load desks. Please try again.');
       console.error(err);
@@ -32,7 +38,8 @@ function DesksPage({ userId }) {
 
   useEffect(() => {
     loadDesks();
-  }, [startDate, endDate]);
+  }, [startDate, endDate, hasFiltered]);
+
 
   return (
     <div className="page-container">
@@ -45,7 +52,10 @@ function DesksPage({ userId }) {
             <input
               type="date"
               value={startDate}
-              onChange={(e) => setStartDate(e.target.value)}
+              onChange={(e) => {
+                setStartDate(e.target.value);
+                setHasFiltered(true);
+              }}
             />
           </label>
           <label>
@@ -54,7 +64,10 @@ function DesksPage({ userId }) {
               type="date"
               value={endDate}
               min={startDate}
-              onChange={(e) => setEndDate(e.target.value)}
+              onChange={(e) => {
+                setEndDate(e.target.value);
+                setHasFiltered(true);
+              }}
             />
           </label>
         </div>
@@ -63,6 +76,7 @@ function DesksPage({ userId }) {
       {loading && <div className="loading">Loading desks...</div>}
       {error && <div className="error">{error}</div>}
       
+
       {!loading && !error && (
         <DeskGrid 
           desks={desks} 
